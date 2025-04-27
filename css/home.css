@@ -1,0 +1,161 @@
+:root{
+    --primary-color: #C09342;
+    --secondary-color: #091D1C;
+
+    --primary-family: "Crimson Text", sans-serif;
+    --secondary-family: "Josefin Sans", sans-serif;
+}
+
+@font-face {
+    font-family: "Crimson Text";
+    src: url(../fonts/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(../fonts/JosefinSans-ExtraLight.ttf);
+}
+
+body{
+    background-color: #102b2a;
+    color: #fff;
+    font-family: "Crimson Text";
+    flex-shrink: 0;
+}
+
+img{
+    object-fit: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 36px 150px 36px;
+    background-color: #102b2a;
+    z-index: 2;
+}
+
+.navbar__logo{
+    width: 172px;
+    height: 40px;
+}
+
+.navbar__pages{
+    width: 38%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.8px;
+    margin-block: auto;
+}
+
+.navbar__pages ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+ul li a:hover {
+    color: var(--primary-color);
+}
+
+.navbar__button button{
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    width: 149px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar__stripe{
+    position: fixed;
+    z-index: 2;
+}
+
+.stripe{
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-color);
+}
+
+.book-now{
+    padding: 50px 100px 0;
+}
+
+.book-now__title{
+    width: 558px;
+    color: var(--primary-color);
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: capitalize;
+    margin-right: 125px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.book-now__title span{
+    color: #fff;
+}
+
+.book-now__subtitle{
+    width: 575px;
+    vertical-align: top;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: var(--secondary-family);
+    display: inline-block;
+}
+
+.book-now__button button{
+    width: 142px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid var(--primary-color);
+    font-family: var(--primary-family);
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #FFF;
+    font-family: "Crimson Text";
+    font-size: 16px;
+    float: right;
+}
+
+.book-now__button button img{
+    margin-left: 10px;
+}
+
+.book-now__decor{
+    margin: 80px 0 50px;
+}
+
+.book-now__images{
+    display: flex;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.book-now__images-left img{
+    width: 705px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.book-now__images-right svg{
+    position: absolute;
+    top: -275px;
+    padding-left: 20px;
+}
+
