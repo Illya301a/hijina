@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <a href="index.html"><img src="photos/logo.png" alt="restrobar"></a>
+                <!-- logo -->
+            </div>
+            <div class="navbar__pages">
+                <ul>
+                    <li><a href="pages/about.html">About us</a></li>
+                    <li><a href="pages/menu.html">Menu</a></li>
+                    <div>
+                        <li class="show">
+                            Gallery
+                            <img src="photos/assets/arrowDown.svg" alt="arrowDown">
+                        </li>
+                        <div class="hide">
+                            <li><a href="pages/interior.html">Interior</a> </li>
+                            <li><a href="pages/dishes.html">Dishes</a></li>
+                        </div>
+                    </div>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+
+                </ul>
+            </div>
+            <div class="navbar__button">
+                <button onclick="navButton()">Find a table</button>
+            </div>
+        </nav>
+        <div class="navbar__stripe stripe"></div>
+
+        <section class="book-now">
+            <div class="book-now__title">
+                <p>Hundreds of <br> flavors <span>under Roof.</span> </p>
+            </div>
+            <div class="book-now__subtitle">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <div class="book-now__button">
+                    <button>Book now <img src="photos/assets/arrow.svg" alt="arrow"></button>
+                </div>
+                <div class="book-now__decor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="76" height="9" viewBox="0 0 76 9" fill="none">
+                        <circle cx="4.5" cy="4.5" r="4.5" fill="#D9D9D9" />
+                        <circle cx="71.5" cy="4.5" r="4.5" fill="#D9D9D9" />
+                        <path
+                            d="M46.3536 4.35355C46.5488 4.15829 46.5488 3.84171 46.3536 3.64645L43.1716 0.464466C42.9763 0.269204 42.6597 0.269204 42.4645 0.464466C42.2692 0.659728 42.2692 0.976311 42.4645 1.17157L45.2929 4L42.4645 6.82843C42.2692 7.02369 42.2692 7.34027 42.4645 7.53553C42.6597 7.7308 42.9763 7.7308 43.1716 7.53553L46.3536 4.35355ZM30 4.5H46V3.5H30V4.5Z"
+                            fill="#C09342" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="book-now__images">
+                <div class="book-now__images--left">
+                    <img src="photos/DSC_2624.JPG" alt="steak">
+                </div>
+                <div class="book-now__images--right">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="995" height="777" viewBox="0 0 995 777">
+                        <defs>
+                            <pattern id="photoPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                                <image href="photos/001-3-DSC_2721-2.jpg" preserveAspectRatio="xMidYMid slice"
+                                    width="995" height="777" />
+                            </pattern>
+                        </defs>
+
+                        <path
+                            d="M617.5 278H30C13.4315 278 0 291.431 0 308V746.5C0 763.069 13.4315 776.5 30 776.5H965C981.569 776.5 995 763.069 995 746.5V30C995 13.4315 981.569 0 965 0H677.5C660.931 0 647.5 13.4315 647.5 30V248C647.5 264.569 634.069 278 617.5 278Z"
+                            fill="url(#photoPattern)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <div class="stripe"></div>
+
+        <section class="about-us">
+            <div class="about-us__left">
+                <img src="photos/0001-DSC_2720-3.jpg" alt="chicken">
+                <img src="photos/assets/flower1.png" alt="flower1">
+            </div>
+            <div class="about-us__center">
+                <img class="spork" src="photos/assets/spork.svg" alt="spork">
+                <p class="about-us__center--title">relax in our comfortable</p>
+                <p class="about-us__center--subtitle">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+                    one
+                    of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+                    cites of
+                    the word in classical literature, discovered the undoubtable source.
+                </p>
+                <p class="about-us__center--description">spacious & gorgeous dining area</p>
+                <div class="about-us__center--button">
+                    <button>Read more <img src="photos/assets/arrow.svg" alt="arrow"></button>
+                </div>
+            </div>
+            <div class="about-us__right">
+                <img src="photos/assets/flower2.png" alt="flower2">
+                <img src="photos/soup.jpg" alt="meat">
+                <p>Taste difference</p>
+            </div>
+        </section>
+        <div class="stripe"></div>
+
+        <section class="category">
+            <p class="category__title">Our category</p>
+            <div class="category__cards">
+                <div class="category__cards-1">
+                    <img src="photos/001-DSC_2815.jpg" alt="meat">
+                </div>
+                <div class="category__cards-2">
+                    <img src="photos/01-DSC_1138.jpg" alt="meat">
+                </div>
+                <div class="category__cards-3">
+                    <p class="category__cards-3--title">
+                        Discover new flavors and enjoy our authentic dishes
+                    </p>
+                    <p class="category__cards-3--subtitle">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable.
+                        <br><br>
+                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+                    </p>
+                    <div class="category__cards-3--button">
+                        <button>Special dishes
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"
+                                fill="none">
+                                <path
+                                    d="M11.3536 4.85355C11.5488 4.65829 11.5488 4.34171 11.3536 4.14645L8.17157 0.964466C7.97631 0.769204 7.65973 0.769204 7.46447 0.964466C7.2692 1.15973 7.2692 1.47631 7.46447 1.67157L10.2929 4.5L7.46447 7.32843C7.2692 7.52369 7.2692 7.84027 7.46447 8.03553C7.65973 8.2308 7.97631 8.2308 8.17157 8.03553L11.3536 4.85355ZM0 5L11 5V4L0 4L0 5Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="category__cards-4">
+                    <img src="photos/meat.jpg" alt="meat">
+                </div>
+                <div class="category__cards-5">
+                    <img src="photos/1-DSC_0838.JPG" alt="meat">
+                </div>
+            </div>
+        </section>
+        <div class="stripe"></div>
+
+        <section class="us">
+            <p class="us__title">Why us</p>
+            <div class="us__content">
+                <div class="us__content-image">
+                    <img src="photos/DSC_9696.jpg" alt="tea">
+                </div>
+                <div class="us__content-desc">
+                    <div class="us__content-desc--title">
+                        <p>A premium restaurant in the heart <br> of out city</p>
+                    </div>
+                    <div class="us__content-desc--subtitle">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                            looked
+                            up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+                            through the cites of the word in classical literature, discovered the undoubtable source.
+                        </p>
+                    </div>
+                    <div class="us__content-categories">
+                        <div class="us__content-categories-1">
+                            <img src="photos/assets/us/reserve.svg" alt="reserve">
+                            <p>
+                                Organization of banquets. <br> Each dish is about the history of Georgia.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-2">
+                            <img src="photos/assets/us/waiter.svg" alt="waiter">
+                            <p>
+                                Excellent service <br> With traditions of Caucasian hospitality.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-3">
+                            <img src="photos/assets/us/soups.svg" alt="soup">
+                            <p>
+                                Authentic <br> Georgian kharcho, chikhirtma, chakapuli.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-4">
+                            <img src="photos/assets/us/sausage.svg" alt="sausage">
+                            <p>
+                                Shish kebab, kebab and other traditional <br> Georgian meat dishes in the best
+                                execution.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-5">
+                            <img src="photos/assets/us/fowl.svg" alt="fowl">
+                            <p>
+                                Ideal chicken tapaka and quail. <br> Satsivi and other delicious dishes.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-6">
+                            <img src="photos/assets/us/skewer.svg" alt="skewer">
+                            <p>
+                                We know how to cook great khachapuri. <br> And we will surprise you with the variety.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-7">
+                            <img src="photos/assets/us/fish.svg" alt="fish">
+                            <p>
+                                Fish dishes are also on the menu. <br> The best local products.
+                            </p>
+                        </div>
+                        <div class="us__content-categories-8">
+                            <img src="photos/assets/us/salads.svg" alt="salad">
+                            <p>
+                                Traditional Georgian pkhali and other cold appetizers, <br> salads according to
+                                Caucasian
+                                recipes.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="stripe"></div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
